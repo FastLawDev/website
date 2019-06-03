@@ -59,7 +59,7 @@
         
       </div> 
       <h1 class="main__title">SMART ASSISTANTS - альтернатива помощнику и сложному ПО для автоматизации типовых бизнес-процессов и консультаций на базе технологий искусственного интеллекта</h1>
-      <a href="#problem" class="button"><span>Узнать больше</span></a>
+      <a href="#problem" class="button" onclick="ga('send', 'event', 'buttons', 'intro')"><span>Узнать больше</span></a>
     </div>
 
     <div class="main__image phone-demo">
@@ -78,7 +78,6 @@
         <div class="home"></div>
         <div class="bottom-bar"></div>
         </div>
-        <!--img src="/assets/img/phone_logo.png"/--!>
       </div>
     </div> 
   </div>
@@ -295,7 +294,7 @@
               <p>Робот запоминает созданные документы, информацию о вашей организации и в последующем поможет ее найти.</p>
               
             </div>
-            <a href="#contacts" class="button"><span>Попробовать</span></a>
+            <a href="#contacts" class="button" onclick="ga('send', 'event', 'buttons', 'contacts')"><span>Попробовать</span></a>
           </div>
         </div>
         
@@ -503,7 +502,7 @@
     </div>
     <form class="form" action="https://formspree.io/info@fastlaw.io" method="POST">
       <input class="input" type="email" placeholder="e-mail" name="_replyto">
-      <input class="button" type="submit" value="Отправить">
+      <input class="button" type="submit" value="Отправить" onclick="ga('send', 'event', 'buttons', 'send')">
     </form>
   </div>
 </div>
